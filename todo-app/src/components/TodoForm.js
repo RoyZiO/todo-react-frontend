@@ -10,7 +10,7 @@ function TodoForm () {
     function handleSubmit (e) {
         e.preventDefault();
         if (todo.trim()) {
-            handleAdd({ task, dueDate });
+            handleAdd({ todo, dueDate });
             setTodo('');
             setDueDate('');
         }

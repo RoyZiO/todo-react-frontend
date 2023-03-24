@@ -26,4 +26,4 @@ function SignUp (props) {
     </div>
     )
 }
-export default SignUp
+export default SignUp;
