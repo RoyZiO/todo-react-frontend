@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage';
 import Register from './pages/Register';
 import TodoList from './components/TodoList';
 import TodoListContext from './context/TodoListContext';
+import Header from './components/Header';
 
 function App() {
 
@@ -57,7 +58,6 @@ function App() {
        {
         currentForm === "login" ? <LoginPage onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
       }
-      <TodoList/>
     </div>
     </TodoListContext.Provider>
   );
