@@ -12,6 +12,7 @@ function LoginPage(props) {
 
     return (
         <div className="auth-form-container">
+            <h1>MY TODOS</h1>
             <h2>Login</h2>
             <form className="login-form" onSubmit={handleSubmit}>
                 <label htmlFor="email">Email: </label>
